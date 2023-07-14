@@ -50,7 +50,7 @@ def process_pdf(file):
 
 
 def app():
-    # st.set_page_config(page_title='Zee-Q 360', page_icon=':brain:')
+
     st.title('DataWhiz')
     st.write(
         'Effortlessly Extract Insights from PDF and CSV Files with DataWhiz.')
