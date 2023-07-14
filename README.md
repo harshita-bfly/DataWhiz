@@ -9,7 +9,8 @@
 
 
 
-- 🤖 Introducing DataWhiz, an AI-powered chatbot assistant for extracting valuable data from PDF and CSV files.
+- :woman_technologist: Introducing DataWhiz, an AI-powered chatbot assistant for extracting valuable data from PDF and CSV files.
 - 📂 You can effortlessly unlock insights by providing prompts and receiving accurate responses because of the strength of large language models and conversational AI.
 - 🦜 DataWhiz ensures precise and effective information retrieval because of the robust langchain framework, allowing you to explore your data quickly.
+- :point_down: A snapshot of the bot is attached below.
 
