@@ -1,8 +1,12 @@
 
 <h1 align="center">DataWhiz 🤖</h1>
 
-<p align="center">
+<!--<p align="center">
   <img src="https://github.com/harshita-bfly/DataWhiz/assets/100403649/73f72f23-4c42-42aa-9971-c84bb65753a5" alt="DataWhiz Logo" style="display: block; margin: 0 auto;">
+</p> -->
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/221352989-518609ab-b4d1-459e-929f-a08cd2bd9b3c.gif" alt="DataWhiz Logo" style="display: block; margin: 0 auto;">
 </p>
 
 <h3 align="center">Effortlessly Extract Insights from PDF and CSV Files</h3>
