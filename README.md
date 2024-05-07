@@ -11,13 +11,14 @@
 
 <h3 align="center">Effortlessly Extract Insights from PDF and CSV Files</h3>
 
-
-
 - :woman_technologist: Introducing DataWhiz, an AI-powered chatbot assistant for extracting valuable data from PDF and CSV files.
 - 📂 You can effortlessly unlock insights by providing prompts and receiving accurate responses because of the strength of large language models and conversational AI.
 - 🦜 It ensures precise and effective information retrieval because of the robust langchain framework, allowing you to explore your data quickly.
-- :point_down: A snapshot of the Stremalit app is attached below.
+- :point_down: A snapshot of the Streamlit app is attached below.
 
-  
-![dataWhiz_github](https://github.com/harshita-bfly/DataWhiz/assets/100403649/55e59ae3-9c10-4701-9115-4381f34e5310)
+  ![image](https://github.com/harshita-bfly/DataWhiz/assets/100403649/326f27e4-4c14-4117-955f-7bce19163609)
+
+  ![image](https://github.com/harshita-bfly/DataWhiz/assets/100403649/c78acd6d-7ef8-43b4-9498-689a91035d72)
+
+
 
