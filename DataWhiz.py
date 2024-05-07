@@ -51,7 +51,7 @@ def process_pdf(file):
 
 
 def app():
-
+    # hi
     st.title('DataWhiz')
     st.write(
         ':computer: Effortlessly Extract Insights from PDF and CSV Files with DataWhiz.')
