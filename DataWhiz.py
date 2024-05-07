@@ -5,7 +5,8 @@ import streamlit as st
 import pandas as pd
 from PyPDF2 import PdfReader
 from streamlit_lottie import st_lottie
-from langchain.agents import create_pandas_dataframe_agent
+# from langchain.agents import create_pandas_dataframe_agent -- deprecated
+from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain.chains.question_answering import load_qa_chain
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
@@ -53,7 +54,15 @@ def app():
 
     st.title('DataWhiz')
     st.write(
-        'Effortlessly Extract Insights from PDF and CSV Files with DataWhiz.')
+        ':computer: Effortlessly Extract Insights from PDF and CSV Files with DataWhiz.')
+    st.write(' :dart: This application allows you to extract insights from PDF and CSV files using natural language processing.')
+    with st.sidebar:
+        st.header('Instructions')
+        st.write('1. Enter your OpenAI API key.')
+        st.write('2. Choose the file type betweeen a PDF or CSV file.')
+        st.write('3. Upload your file(s).')
+        st.write('4. Enter your questions and get answers.')
+        st.write('5. Enjoy extracting insights!')
 
     key = st.text_input('Enter your OpenAI API key:')
     # OpenAI API Key
@@ -96,3 +105,4 @@ def app():
 
 if __name__ == '__main__':
     app()
+st.write('Made by Harshita Verma')
