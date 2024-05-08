@@ -6,12 +6,16 @@ import pandas as pd
 from PyPDF2 import PdfReader
 from streamlit_lottie import st_lottie
 # from langchain.agents import create_pandas_dataframe_agent -- deprecated
+# https://github.com/langchain-ai/langchain/discussions/11680
 from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain.chains.question_answering import load_qa_chain
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import FAISS
-from langchain.llms import OpenAI
+# pip install -U langchain-community
+# from langchain.vectorstores import FAISS --STB deprecated
+from langchain_community.vectorstores import FAISS
+# from langchain.llms import OpenAI --STB deprecated
+from langchain_community.llms import OpenAI
 
 # insert lottie file
 url = "https://lottie.host/6705b87a-1078-4193-911c-87cef0f82c3c/YDpXLZjQMX.json"
@@ -54,7 +58,6 @@ def app():
     st.title('DataWhiz')
     st.write(
         ':computer: Effortlessly Extract Insights from PDF and CSV Files with DataWhiz.')
-    st.write(' :dart: This application allows you to extract insights from PDF and CSV files using natural language processing.')
     with st.sidebar:
         st.header('Instructions')
         st.write('1. Enter your OpenAI API key.')
@@ -104,4 +107,5 @@ def app():
 
 if __name__ == '__main__':
     app()
+st.write('DataWhiz can make mistakes. Consider checking important information.')
 st.write('Made by Harshita Verma')
