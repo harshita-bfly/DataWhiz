@@ -16,9 +16,11 @@
 - 🦜 It ensures precise and effective information retrieval because of the robust langchain framework, allowing you to explore your data quickly.
 - :point_down: A snapshot of the Streamlit app is attached below.
 
-  ![image](https://github.com/harshita-bfly/DataWhiz/assets/100403649/326f27e4-4c14-4117-955f-7bce19163609)
+  ![image](https://github.com/harshita-bfly/DataWhiz/assets/100403649/6331a0f0-e4b2-4179-9e3c-04557897704d)
+  
+  ![image](https://github.com/harshita-bfly/DataWhiz/assets/100403649/77c10f09-8282-42c6-ae11-f81acb050627)
 
-  ![image](https://github.com/harshita-bfly/DataWhiz/assets/100403649/c78acd6d-7ef8-43b4-9498-689a91035d72)
+
 
 
 
